@@ -49,7 +49,7 @@ You always can make an issue there. But also take a look here [https://community
   <Category>HomeAutomation:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/SebastianSchultz/ioBroker.enet/HEAD/admin/enet.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Th0masDB/unraid_template/main/icons/enet.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
