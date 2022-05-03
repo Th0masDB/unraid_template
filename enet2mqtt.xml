@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://github.com/mnordseth/enet2mqtt/issues</Support>
   <Project>https://github.com/mnordseth/enet2mqtt</Project>
   <Overview># Enet2mqtt&#xD;
 Python library for communicating with the Gira / Jung eNet Smart Home Server (https://www.enet-smarthome.com/), and a mqtt forwarder to integrate eNet Smart Home devices with Home Assistant.&#xD;
@@ -53,7 +53,7 @@ You always can make an issue there. But also take a look here [https://community
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1651576754</DateInstalled>
+  <DateInstalled>1651579160</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description># Enet2mqtt&#xD;
@@ -97,13 +97,7 @@ You always can make an issue there. But also take a look here [https://community
     <Mode>bridge</Mode>
     <Publish/>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir/>
-      <ContainerDir>mqtt_ip</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
+  <Data/>
   <Environment>
     <Variable>
       <Value/>
@@ -119,6 +113,11 @@ You always can make an issue there. But also take a look here [https://community
       <Value/>
       <Name>enet_pass</Name>
       <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>mqtt_ip</Name>
+      <Mode>rw</Mode>
     </Variable>
     <Variable>
       <Value/>
