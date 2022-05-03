@@ -135,7 +135,7 @@ You always can make an issue there. But also take a look here [https://community
   <Config Name="Enet IP" Target="enet_ip" Default="" Mode="" Description="Container Variable: enet_ip" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Enet username" Target="enet_user" Default="" Mode="" Description="Container Variable: enet_user" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Enet user password" Target="enet_pass" Default="" Mode="" Description="Container Variable: enet_pass" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="MQTT IP" Target="mqtt_ip" Default="" Mode="rw" Description="Container Path: mqtt_ip" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="MQTT IP" Target="mqtt_ip" Default="" Mode="rw" Description="Container Variable: mqtt_ip" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="MQTT username" Target="mqtt_user" Default="" Mode="" Description="Container Variable: mqtt_user" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="MQTT user password" Target="mqtt_pass" Default="" Mode="" Description="Container Variable: mqtt_pass" Type="Variable" Display="always" Required="true" Mask="false"/>
 </Container>
