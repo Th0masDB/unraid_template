@@ -117,7 +117,7 @@ You always can make an issue there. But also take a look here [https://community
     <Variable>
       <Value/>
       <Name>mqtt_ip</Name>
-      <Mode>rw</Mode>
+      <Mode/>
     </Variable>
     <Variable>
       <Value/>
