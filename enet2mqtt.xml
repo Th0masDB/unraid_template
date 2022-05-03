@@ -12,39 +12,12 @@
   <Overview># Enet2mqtt&#xD;
 Python library for communicating with the Gira / Jung eNet Smart Home Server (https://www.enet-smarthome.com/), and a mqtt forwarder to integrate eNet Smart Home devices with Home Assistant.&#xD;
 &#xD;
-&#xD;
 ## Installation&#xD;
 ### Requirements&#xD;
 &#xD;
  1. You have a mqtt broker. (Like mosquitto.)&#xD;
  2. You have Home Assistant running.&#xD;
- 3. You know how to use docker.&#xD;
- &#xD;
-### The installation &#xD;
-First, you need to make a docker image. &#xD;
 &#xD;
- - create the docker image: `sudo docker build -t enet2mqtt .`&#xD;
-&#xD;
-Now that you have the docker image, you can create the docker container&#xD;
-&#xD;
-    sudo docker run -d -e enet_user=[ENET_USER] -e enet_pass=[ENET_PASSWORD] -e mqtt_user=[MQTT_USER] -e mqtt_pass=[MQTT_PASSWORD] -e enet_ip=[ENET_IP] -e mqtt_ip=[MQTT_BROKER_IP] --name enet2mqtt enet2mqtt&#xD;
-&#xD;
- - [ENET_USER] = Your enet username&#xD;
- - [ENET_PASSWORD] = Your enet password&#xD;
- - [MQTT_USER] = your mqtt username of your broker&#xD;
- - [MQTT_PASSWORD] = your mqtt password of your broker&#xD;
- - [ENET_IP] = your enet server IP&#xD;
- - [MQTT_BROKER_IP] = your mqtt broker IP&#xD;
-&#xD;
-That is it!&#xD;
-&#xD;
-&#xD;
-&#xD;
-## Support&#xD;
-You always can make an issue there. But also take a look here [https://community.home-assistant.io/t/home-assistant-control-google-assistant-devices/164931/41](https://community.home-assistant.io/t/home-assistant-control-google-assistant-devices/164931/41)!&#xD;
-&#xD;
-## Roadmap&#xD;
-- Make a HACS plugin.&#xD;
 </Overview>
   <Category>HomeAutomation:</Category>
   <WebUI/>
@@ -53,45 +26,18 @@ You always can make an issue there. But also take a look here [https://community
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1651579160</DateInstalled>
+  <DateInstalled>1651593817</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description># Enet2mqtt&#xD;
 Python library for communicating with the Gira / Jung eNet Smart Home Server (https://www.enet-smarthome.com/), and a mqtt forwarder to integrate eNet Smart Home devices with Home Assistant.&#xD;
-&#xD;
 &#xD;
 ## Installation&#xD;
 ### Requirements&#xD;
 &#xD;
  1. You have a mqtt broker. (Like mosquitto.)&#xD;
  2. You have Home Assistant running.&#xD;
- 3. You know how to use docker.&#xD;
- &#xD;
-### The installation &#xD;
-First, you need to make a docker image. &#xD;
 &#xD;
- - create the docker image: `sudo docker build -t enet2mqtt .`&#xD;
-&#xD;
-Now that you have the docker image, you can create the docker container&#xD;
-&#xD;
-    sudo docker run -d -e enet_user=[ENET_USER] -e enet_pass=[ENET_PASSWORD] -e mqtt_user=[MQTT_USER] -e mqtt_pass=[MQTT_PASSWORD] -e enet_ip=[ENET_IP] -e mqtt_ip=[MQTT_BROKER_IP] --name enet2mqtt enet2mqtt&#xD;
-&#xD;
- - [ENET_USER] = Your enet username&#xD;
- - [ENET_PASSWORD] = Your enet password&#xD;
- - [MQTT_USER] = your mqtt username of your broker&#xD;
- - [MQTT_PASSWORD] = your mqtt password of your broker&#xD;
- - [ENET_IP] = your enet server IP&#xD;
- - [MQTT_BROKER_IP] = your mqtt broker IP&#xD;
-&#xD;
-That is it!&#xD;
-&#xD;
-&#xD;
-&#xD;
-## Support&#xD;
-You always can make an issue there. But also take a look here [https://community.home-assistant.io/t/home-assistant-control-google-assistant-devices/164931/41](https://community.home-assistant.io/t/home-assistant-control-google-assistant-devices/164931/41)!&#xD;
-&#xD;
-## Roadmap&#xD;
-- Make a HACS plugin.&#xD;
 </Description>
   <Networking>
     <Mode>bridge</Mode>
